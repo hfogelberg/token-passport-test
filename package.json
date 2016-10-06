@@ -1,0 +1,26 @@
+{
+  "name": "token-passport-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --watch"
+  },
+  "keywords": [
+    "api",
+    "passport",
+    "jwt",
+    "testing"
+  ],
+  "author": "henrik.fogelberg@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.0",
+    "mongoose": "^4.6.3",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0"
+  }
+}
